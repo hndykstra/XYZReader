@@ -172,9 +172,10 @@ public class ArticleListActivity extends AppCompatActivity implements
             view.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    vh.thumbnailView
+
                     ActivityOptionsCompat options = ActivityOptionsCompat
-                            .makeSceneTransitionAnimation(ArticleListActivity.this, vh.thumbnailView, "");
+                            .makeSceneTransitionAnimation(ArticleListActivity.this, vh.thumbnailView,
+                                    ArticleListActivity.this.getString(R.string.item_image));
 
                     startActivity(new Intent(Intent.ACTION_VIEW,
                             ItemsContract.Items.buildItemUri(getItemId(vh.getAdapterPosition()))));

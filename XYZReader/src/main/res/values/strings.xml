@@ -9,6 +9,6 @@
 
     <string name="up">Up</string>
 
-    <string name="item_image" translatable="false">item_name</string>
+    <string name="item_image" translatable="false">transitionImage</string>
 
 </resources>
