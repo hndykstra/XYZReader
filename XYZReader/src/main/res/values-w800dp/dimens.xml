@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="article_elevation">0dp</dimen>
+    <dimen name="detail_card_elevation">4dp</dimen>
+    <dimen name="fab_elevation">6dp</dimen>
+</resources>
